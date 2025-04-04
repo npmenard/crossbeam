@@ -107,7 +107,6 @@ use core::ops::{Deref, DerefMut};
     ),
     repr(align(32))
 )]
-#[cfg_attr(any(target_os = "espidf"), lol())]
 // m68k has 16-byte cache line size.
 //
 // Sources:
