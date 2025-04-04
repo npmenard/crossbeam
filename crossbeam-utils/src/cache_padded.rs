@@ -103,6 +103,7 @@ use core::ops::{Deref, DerefMut};
         target_arch = "mips64r6",
         target_arch = "sparc",
         target_arch = "hexagon",
+        target_os = "espidf",
     ),
     repr(align(32))
 )]
@@ -140,6 +141,7 @@ use core::ops::{Deref, DerefMut};
         target_arch = "hexagon",
         target_arch = "m68k",
         target_arch = "s390x",
+        target_os = "espidf",
     )),
     repr(align(64))
 )]
